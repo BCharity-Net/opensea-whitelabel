@@ -3,6 +3,9 @@
   "author": "Alex Atallah <alex.atallah@opensea.io>",
   "version": "1.0.0",
   "description": "An example app showing how to easily white-label OpenSea and create your own NFT marketplace",
+  "engines": {
+    "node": "16.2.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
