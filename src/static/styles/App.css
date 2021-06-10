@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 1em;
+  height: 2em;
   pointer-events: none;
 }
 
@@ -28,6 +28,9 @@
   min-height: 10vh;
   background-color: #6229ca;
   text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .App-link {
@@ -78,6 +81,16 @@
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.6;
+}
+
+.logoContainer{
+  height: 4em;
+  display: block;
+}
+
+.footerLogo{
+  height: 100%;
+  width: auto;
 }
 
 @keyframes App-logo-spin {

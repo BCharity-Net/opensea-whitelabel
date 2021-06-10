@@ -1,8 +1,8 @@
 import React from 'react';
 import { ASSET_URL, CHOSEN_THEME } from './constants'
-import logo from './static/images/logo.png';
+import logo from './static/images/Blockchain-Funds(已去底)-DD.png';
 import './static/styles/App.css';
-import footer from './static/images/footer.png';
+import footerImage from './static/images/hbclogo-DD.png';
 import { iframeResizer } from 'iframe-resizer'
 import './static/styles/App.css';
 
@@ -36,7 +36,9 @@ class App extends React.Component {
         </main>
         <footer className="App-footer">
           {/* Placeholder image for footer */}
-          <img style={{width: '100%'}} src={footer} className="footer" alt="footer" />
+          <div className="logoContainer">
+            <img src={footerImage} className="footerLogo" alt="footer" />
+          </div>
         </footer>
       </div>
     );
