@@ -88,6 +88,22 @@
 }
 
 .App-logo-container{
+  overflow: visible;
+}
+
+.App-opensea-iframe-container{
+  display: flex;
+  overflow: auto;
+  height: 100%;
+}
+
+#opensea-iframe{
+  overflow: auto !important;
+  width: 100%;
+  border: none;
+}
+
+.App-logo-container{
   height: 4em;
   display: block;
 }
