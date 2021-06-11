@@ -22,6 +22,9 @@
   left: 0;
   bottom: 0;
   right: 0;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 
 .App-footer {
@@ -83,12 +86,12 @@
   opacity: 0.6;
 }
 
-.logoContainer{
+.App-logo-container{
   height: 4em;
   display: block;
 }
 
-.footerLogo{
+.App-footer-logo{
   height: 100%;
   width: auto;
 }
